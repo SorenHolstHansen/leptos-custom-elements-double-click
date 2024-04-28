@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom Elements - Vanilla</title>
+  <script type="module">
+    import initFirst, {run as runFirst} from './first/pkg/first.js';
+    import initSecond, {run as runSecond} from './second/pkg/second.js';
+    async function main() {
+      await Promise.all([
+        initFirst(),
+        initSecond()
+      ])
+      runFirst();
+      runSecond();
+    }
+    main();
+  </script>
+</head>
+
+<body>
+  <first-elem></first-elem>
+  <second-elem></second-elem>
+</body>
+
+</html>
