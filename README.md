@@ -13,3 +13,8 @@ npm i -g http-server && http-server
 ```
 
 Then open the console. Try pressing either of the buttons. All click events are fired twice
+
+
+https://github.com/SorenHolstHansen/leptos-custom-elements-double-click/assets/54755687/02ddd4de-c41e-4dfb-b639-bcae5395217f
+
+
